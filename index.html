@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<title>夏休みにしたこと</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f7f7;
+    color: #173b57;
+    font-family: "Yu Gothic", "Meiryo", sans-serif;
+    line-height: 1.7;
+}
+
+.container {
+    width: 95%;
+    max-width: 1400px;
+    margin: 20px auto;
+}
+
+/* タイトル部分 */
+header {
+    background-color: #dff3f8;
+    padding: 25px 45px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    border-bottom: 2px solid #c8e7ef;
+}
+
+header h1 {
+    font-family: serif;
+    font-size: 42px;
+    margin: 0;
+    white-space: nowrap;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-family: serif;
+    margin-top: 5px;
+}
+
+.introduction {
+    border-left: 1px solid #4d8298;
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+/* 2列レイアウト */
+.contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 30px;
+    margin-top: 25px;
+}
+
+.section {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    min-height: 290px;
+}
+
+.section-text {
+    flex: 1;
+}
+
+.section-image {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-image img {
+    width: 100%;
+    max-height: 290px;
+    object-fit: cover;
+}
+
+h2 {
+    margin: 0 0 12px 0;
+    font-family: serif;
+    font-size: 27px;
+    border-left: 8px solid #c8e7ef;
+    padding-left: 10px;
+}
+
+.number {
+    font-family: sans-serif;
+    background-color: #dff3f8;
+    padding: 2px 8px;
+    margin-right: 7px;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+/* まとめ */
+.summary {
+    background-color: #dff3f8;
+    margin-top: 25px;
+    padding: 25px 35px;
+    border-left: 6px solid #6ca6ba;
+}
+
+.summary h2 {
+    border-left: none;
+    padding-left: 0;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.summary p {
+    display: inline;
+}
+
+/* スマートフォン用 */
+@media screen and (max-width: 900px) {
+
+    header {
+        display: block;
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    .introduction {
+        margin-top: 15px;
+        border-left: none;
+        border-top: 1px solid #4d8298;
+        padding: 15px 0 0 0;
+    }
+
+    .contents {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        display: block;
+    }
+
+    .section-image {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<header>
+
+    <div>
+        <h1>夏休みにしたこと</h1>
+        <div class="subtitle">― 横浜での観光を通して ―</div>
+    </div>
+
+    <div class="introduction">
+        夏休みに、横浜へ行きました。<br>
+        歴史的な建造物や公園、洋館などを見て回り、<br>
+        中華街で食べ歩きをしたり、元町商店街を巡ったりしました。<br>
+        今回は、訪れた場所やそこで感じたことについてまとめます。
+    </div>
+
+</header>
+
+
+<div class="contents">
+
+
+<!-- 1 歴史的建造物 -->
+<section class="section">
+
+    <div class="section-text">
+
+        <h2>
+            <span class="number">1</span>
+            歴史的建造物
+        </h2>
+
+        <p>
+            まず、横浜の歴史を感じられる建造物を見ました。
+            港町として発展してきた横浜には、当時の面影を残す
+            建物が多く残っています。
+        </p>
+
+        <p>
+            今回訪れた建物は、レンガ造りの外観やドーム型の屋根が特徴的で、
+            近くで見るとその大きさや重厚さに圧倒されました。
+        </p>
+
+        <p>
+            ガイドの説明を聞きながら、横浜の歴史や当時の人々の暮らしについて
+            知ることができ、建物そのものだけでなく、周辺の街並みも含めて
+            歴史を身近に感じることができました。
+        </p>
+
+    </div>
+
+    
+
+</section>
+
+
+<!-- 2 洋館 -->
+<section class="section">
+
+    <div class="section-text">
+
+        <h2>
+            <span class="number">2</span>
+            洋館
+        </h2>
+
+        <p>
+            次に、洋館を見に行きました。
+            横浜には、明治・大正時代に建てられた洋館が今も残っており、
+            異国情緒あふれる雰囲気を味わうことができます。
+        </p>
+
+        <p>
+            今回訪れた洋館は、赤レンガのようなレンガ造りの外観と
+            大きな窓が印象的で、建物のデザインや細部の装飾から
+            当時の文化や生活の様子を感じることができました。
+        </p>
+
+        <p>
+            また、日本人の外交官が暮らしていた家もあり、
+            実際にそこで暮らしていた人の生活を想像しながら
+            建物を見ることができました。
+        </p>
+
+        <p>
+            洋風のデザインの中に日本らしい造りが取り入れられている
+            和洋折衷の部分もあり、印象に残りました。
+        </p>
+
+    </div>
+
+    
+
+</section>
+
+
+<!-- 3 公園 -->
+<section class="section">
+
+    <div class="section-text">
+
+        <h2>
+            <span class="number">3</span>
+            公園
+        </h2>
+
+        <p>
+            街の中にある公園にも立ち寄りました。
+            横浜には海に近い公園や、緑が多く広々とした公園など、
+            自然を感じられる場所がいくつもあります。
+        </p>
+
+        <p>
+            今回訪れた公園では、海を眺めながらゆっくりと
+            散歩をすることができ、街の中にいながら
+            自然を感じられるのがとても魅力的でした。
+        </p>
+
+        <p>
+            ベンチに座って景色を眺めたり、木陰で少し休憩したりと、
+            観光の合間にリラックスできる時間を過ごすことができました。
+        </p>
+
+    </div>
+
+    
+
+</section>
+
+
+<!-- 4 中華街 -->
+<section class="section">
+
+    <div class="section-text">
+
+        <h2>
+            <span class="number">4</span>
+            中華街での食べ歩き
+        </h2>
+
+        <p>
+            横浜中華街では、食べ歩きをしました。
+            通りにはさまざまな中華料理の店が並び、
+            歩いているだけでも楽しい雰囲気でした。
+        </p>
+
+        <p>
+            肉まんや小籠包、揚げ菓子など、いろいろな食べ物を
+            少しずつ味わうことができ、中華街ならではの
+            グルメを堪能しました。
+        </p>
+
+        <p>
+            お店の賑やかな雰囲気や、色鮮やかな看板、
+            門の装飾なども印象的で、横浜らしさを感じられる場所でした。
+        </p>
+
+    </div>
+
+    
+
+</section>
+
+
+<!-- 5 元町商店街 -->
+<section class="section">
+
+    <div class="section-text">
+
+        <h2>
+            <span class="number">5</span>
+            元町商店街
+        </h2>
+
+        <p>
+            最後に、元町商店街を巡りました。
+            おしゃれな雑貨屋さんやカフェ、洋服屋さんなどが並んでいて、
+            落ち着いた雰囲気の中で買い物や食事を楽しむことができました。
+        </p>
+
+        <p>
+            海沿いに近く、異国情緒のある街並みも魅力的で、
+            ゆっくりと歩きながらお店を見て回るだけでも楽しかったです。
+        </p>
+
+        <p>
+            観光地とはまた違った、横浜の街の雰囲気を感じることができました。
+        </p>
+
+    </div>
+
+    
+
+</section>
+
+</div>
+
+
+<!-- まとめ -->
+<section class="summary">
+
+    <h2>まとめ</h2>
+
+    <p>
+        今回の横浜への旅行では、歴史的な建造物や洋館、公園を見たり、
+        中華街で食べ歩きをしたり、元町商店街を巡ったりしました。
+        それぞれの場所で異なる雰囲気を味わうことができ、
+        横浜には歴史・文化・自然・食など、さまざまな魅力があると感じました。
+        実際に街を歩いてみることで、地図や写真だけでは分からない、
+        その場所の空気や雰囲気を感じることができ、
+        横浜の街をより身近に感じることができました。
+        今回の旅行は、夏休みの中でも特に印象に残る、
+        とても充実した経験になりました。
+    </p>
+
+</section>
+
+</div>
+
+</body>
+</html>
